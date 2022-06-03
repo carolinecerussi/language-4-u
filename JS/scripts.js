@@ -10,9 +10,8 @@ const q5 = $("input:radio[name=q5]checked").val();
 const q6 = $("input:radio[name=q6]:checked").val();
 
 
+$(document).ready(function() {
+    
 
-
-
-
-
-$(document).ready
+}
+  

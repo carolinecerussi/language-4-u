@@ -1,37 +1,35 @@
-# {Application Name}
+# CodeSurvey
 
-#### By {List of contributors}
+#### By Caroline Cerussi
 
-#### {Brief description of application}
+#### This is 
 
 ## Technologies Used
 
-* List all
-* the major technologies
-* you used in your project
-* here
+* html
+* css
+* javascript
+* jQuery
+* bootstrap
+
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+This application, although currently non-functioning, allows you to choose one of three answers per question on the html webpage. When the application is functioning, the completed survey will input your answers and return with a result of one of three coding languages.
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* 
 
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
 
 ## Known Bugs
 
-* Any known issues
-* should go here
+* No ability to click button and find result because JS scripts are not assembled
+* CSS styles not added currently
 
 ## License
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+If the website doesn't work, please email carcerussi@gmail.com with help inquiries. 
 
-Copyright (c) date author name(s)
+Authorized by Caroline Cerussi June 3 2022

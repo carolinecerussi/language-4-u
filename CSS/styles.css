@@ -1,7 +1,16 @@
-.cSharp {
-    display:none;
+.container {
+    color:navy;
 }
 
-html {
-    font-family:Times;
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+label {
+    color:darkcyan;
+}
+img {
+    display:none;
 }
