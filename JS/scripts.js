@@ -1,19 +1,12 @@
 //business logic//
 
 
+//interface logic//
 
-
-//interface//
 $(document).ready(function() {
+  $("form").submit(function() {
+    $(".result").show();
+  });
+});
 
-    $("form#codeSurvey").submit(function(){
-        $("output#cSharp").show();
-
-    });
-
-}); 
-
-
-
-
-
+$(document).ready
