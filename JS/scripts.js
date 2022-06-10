@@ -8,7 +8,13 @@ $(document).ready(function() {
     const q6 = $("input:radio[name=q6]:checked").val();
     if (q1 === "a") {
       $(".formContainer").hide()
+      $(".cSharp").show()
+    } if (q1 === "b") {
+      $(".formContainer").hide()
       $(".ruby").show()
+    } if (q1 === "c") {
+      $(".formContainer").hide()
+      $(".python").show()
     }
     event.preventDefault()
    })
