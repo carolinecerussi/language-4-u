@@ -1,5 +1,6 @@
 .container {
-    color:navy;
+    color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.642);
 }
 
 h1 {
@@ -9,7 +10,7 @@ h1 {
 }
 
 label {
-    color:darkcyan;
+    color:greenyellow;
 }
 .ruby {
     display:none;
@@ -21,4 +22,11 @@ label {
 
 .python {
     display:none;
+}
+
+body {
+    margin-top: 20%;
+    background-image: url(/IMG/pngkey.com-matrix-code-png-1056183.png);
+    background-size: contain;
+    background-color: black;
 }

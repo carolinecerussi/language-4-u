@@ -7,29 +7,27 @@
 ## Technologies Used
 
 * html
-* css
-* javascript
-* jQuery
-* bootstrap
+*JavaScript
+*CSS
 
 
 ## Description
 
-This application, although currently non-functioning, allows you to choose one of three answers per question on the html webpage. When the application is functioning, the completed survey will input your answers and return with a result of one of three coding languages.
+When the broswer form opens, fill out the survey using the radio buttons to find out which coding language may be a good fit for you. Upon clicking the submit button, the page will show your result on a different page. There is a button on this page that if clicked, will take you back to the main survey and let you try again.
 
 ## Setup/Installation Requirements
 
-* 
+* Clone this respository onto your desktop
+* Open repository folder called "CodingLanguageProject"
+* open index.html in browser
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
 
 ## Known Bugs
 
-* No ability to click button and find result because JS scripts are not assembled
-* CSS styles not added currently
+None
 
 ## License
 
-If the website doesn't work, please email carcerussi@gmail.com with help inquiries. 
+MIT
 
 Authorized by Caroline Cerussi June 3 2022
