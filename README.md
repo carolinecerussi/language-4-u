@@ -18,7 +18,7 @@ When the broswer form opens, fill out the survey using the radio buttons to find
 ## Setup/Installation Requirements
 
 * Clone this respository onto your desktop
-* Open repository folder called "CodingLanguageProject"
+* Open repository folder called "CodingLanguage"
 * open index.html in browser
 
 
