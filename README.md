@@ -19,7 +19,7 @@
   * cd language-4-u
 * Navigate to the index.html file using: 
   * cd index.html
-*Finally, open on 
+* Finally, open on local host by opening the index.html file on Live server
 
 
 ## Known Bugs
