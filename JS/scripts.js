@@ -1,4 +1,10 @@
 
+const questions = [ "whats your favorite color","whats up", "hows it going?"];
+function answerOutcome {
+  const answerWorth = [1,2,3];
+  let selectedAnswer = document.getElementsById('quizQuestions').checked;
+  console.log(selectedAnswer);
+}
 
 $(document).ready(function() {
   $("#form1").submit(function(event) {
