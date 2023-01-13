@@ -1,25 +1,25 @@
-# CodeSurvey
+#  LANGUAGE 4 U 
 
-#### By Caroline Cerussi
+### CAROLINE CERUSSI
 
-#### This is 
+## INITIATIVE:
 
-## Technologies Used
+## TECHNOLOGIES USED:
 
-* html
-*JavaScript
-*CSS
-
-
-## Description
-
-When the broswer form opens, fill out the survey using the radio buttons to find out which coding language may be a good fit for you. Upon clicking the submit button, the page will show your result on a different page. There is a button on this page that if clicked, will take you back to the main survey and let you try again.
+* HTML/HTML5
+* CSS
+* JavaScript
 
 ## Setup/Installation Requirements
 
-* Clone this respository onto your desktop
-* Open repository folder called "CodingLanguage"
-* open index.html in browser
+* Using the terminal, clone the language-4-u repository from Github to your local machine using : 
+  * cd desktop
+  * git clone -----
+* Navigate to project directory using:
+  * cd language-4-u
+* Navigate to the index.html file using: 
+  * cd index.html
+*Finally, open on 
 
 
 ## Known Bugs
