@@ -12,45 +12,49 @@
     <h2>find out what code language  is right for you</h2>
   </header>
   <div class="quizContainer">
-    <div  class="quizQuestionsContainer">
-      <ul>
-        <div class="question1" id="quizQuestions">
-          <li>
-            <h3>What size team do you like to work on?</h3>
-              <label for="answer1">1-20 people</label>
-              <input type="radio" name="quizAnswer" id="answer1" value=1 required/>
-              <label for="answer2">20 - 100 people</label>
-              <input type="radio" name="quizAnswer" id="answer2" value=2 />
-              <label for="answer3">100+ people</label>
-              <input type="radio" name="quizAnswer" id="answer3" value=3 />
-           </li>
+    <div class="questionPortion">
+        <form id="quizForm">
+        <div class="question1">
+          <h3>What size team do you like to work on?</h3>
+              <label for="answer1">
+              <input type="radio" name="quizAnswer" id="answer1" value=1 required/>1-20 people</label>
+              <br/>
+              <label for="answer2">
+              <input type="radio" name="quizAnswer" id="answer2" value=2 >20 - 100 people</label>
+              <br/>
+              <label for="answer3">
+              <input type="radio" name="quizAnswer" id="answer3" value=3 />100+ people</label>
+              <br/>
         </div>
         <div class="question2" id="quizQuestions">
-          <li>
-            <h3>Where would you like to work from?</h3>
-              <label for="answer1">In the office</label>
-              <input type="radio" name="quizAnswer" id="answer1" value=1 required/>
-              <label for="answer2">Remote</label>
-              <input type="radio" name="quizAnswer" id="answer2" value=2 />
-              <label for="answer3">Combination of in person/online</label>
-              <input type="radio" name="quizAnswer" id="answer3" value=3 />
-           </li>
+          <h3>Where do you want to work from?</h3>
+              <label for="answer1">
+              <input type="radio" name="quizAnswer" id="answer1" value='1' required/>From home</label>
+              <br/>
+              <label for="answer2">
+              <input type="radio" name="quizAnswer" id="answer2" value='2' >In the office</label>
+              <br/>
+              <label for="answer3">
+              <input type="radio" name="quizAnswer" id="answer3" value='3' />Combination</label>
+              <br/>
         </div>
-        <div class="question3" id="quizQuestions">
-          <li>
-            <h3>What terms best describe you?</h3>
-              <label for="answer1">Social, Playful, Talkative</label>
-              <input type="radio" name="quizAnswer" id="answer1" value=1 required/>
-              <label for="answer2">Serious, Analytical, Organized</label>
-              <input type="radio" name="quizAnswer" id="answer2" value=2 />
-              <label for="answer3">Sensitive, Detailed, Creative</label>
-              <input type="radio" name="quizAnswer" id="answer3" value=3 />
-           </li>
+          <div class="question3" id="quizQuestions">
+          <h3>What size team do you like to work on?</h3>
+              <label for="answer1">
+              <input type="radio" name="quizAnswer" id="answer1" value='1' required/>1-20 people</label>
+              <br/>
+              <label for="answer2">
+              <input type="radio" name="quizAnswer" id="answer2" value='2' >20 - 100 people</label>
+              <br/>
+              <label for="answer3">
+              <input type="radio" name="quizAnswer" id="answer3" value='3' />100+ people</label>
+              <br/>
         </div>
-    </ul>
-  <div class="button" >
-    <button type="submit" id="getResults">get results</button>
+    <div class="button" >
+      <button type="submit" id="getResults">get results</button>
+    </div>
+  </form>
   </div>
-</div>
+  </div>
 </body>
 </html>
