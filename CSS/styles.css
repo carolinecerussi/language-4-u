@@ -1,3 +1,6 @@
+.hidden {
+  display: none;
+}
 .container#containerHeading {
     color: greenyellow;
 }
