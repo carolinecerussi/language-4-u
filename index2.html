@@ -59,44 +59,93 @@
 </body>
 </html> -->
 
-
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/scripts.js"></script>
-  <title>Coding Quiz</title>
-</head>
-<body>
-  <div>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/scripts.js"></script>
+    <title>Coding Quiz</title>
+  </head>
+  <body>
     <h1>Coding Quiz</h1>
-
-    <p>Find out what coding language is for you!</p>
-
     <form id="userInfo">
-      <label for="age">Age</label>
-      <input id="age" type="text" name="age">
-      <label for="height">Height in inches</label>
-      <input id="height" type="text" name="height">
-      <button type="submit">Show my Code!!</button>
+      <div id="quiz">
+        <fieldset>
+          <legend>Question 1</legend>
+          <label for="answerOne">
+            <input type="radio" id="answerOne" name="questionOne" required />
+            Answer1
+          </label>
+          <br />
+          <label for="answerTwo">
+            <input type="radio" id="answerTwo" name="questionOne" />
+            answer 2
+          </label>
+          <br />
+          <label for="answerThree">
+            <input type="radio" id="answerThree" name="questionOne" />
+            answer 3
+          </label>
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Question 2</legend>
+          <label for="answerOne">
+            <input type="radio" id="answerOne" name="questionTwo" required />
+            Answer1
+          </label>
+          <br />
+          <label for="answerTwo">
+            <input type="radio" id="answerTwo" name="questionTwo" />
+            answer 2
+          </label>
+          <br />
+          <label for="answerThree">
+            <input type="radio" id="answerThree" name="questionTwo" />
+            answer 3
+          </label>
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Question 3</legend>
+          <label for="answerOne">
+            <input type="radio" id="answerOne" name="questionThree" required />
+            Answer1
+          </label>
+          <br />
+          <label for="answerTwo">
+            <input type="radio" id="answerTwo" name="questionThree" />
+            answer 2
+          </label>
+          <br />
+          <label for="answerThree">
+            <input type="radio" id="answerThree" name="questionThree" />
+            answer 3
+          </label>
+          <br />
+        </fieldset>
+        <br />
+        <button type="submit">Show my Code!!</button>
+      </div>
     </form>
-
-    <div id="react" class="hidden">
-      <h1>REACT</h1>
-      <p>Try React! .</p> 
+    <div class="hidden">
+      <div id="react" class="hidden">
+        <h1>REACT</h1>
+        <p>Try React! .</p>
+      </div>
+      <div id="python" class="hidden">
+        <h1>PYTHON</h1>
+        <p>You get python! .</p>
+      </div>
+      <div id="cSharp" class="hidden">
+        <h1>C#</h1>
+        <p>C# is right for you!</p>
+      </div>
+      <div id="javaScript" class="hidden">
+        <h1>CSS HTML & JavaScript</h1>
+        <p>you'd like these for these reasons! .</p>
+      </div>
+      <button type="button" class="hidden" id="reset">Reset</button>
     </div>
-    <div id="python" class="hidden">
-      <h1>PYTHON</h1>
-      <p>You get python! .</p> 
-    </div>
-    <div id="cSharp" class="hidden">
-      <h1>C#</h1>
-      <p>C# is right for you!</p> 
-    </div>
-    <div id="javaScript" class="hidden">
-      <h1>CSS HTML & JavaScript</h1>
-      <p>you'd like these for these reasons! .</p> 
-    </div>
-  </div>
-</body>
+  </body>
 </html>
