@@ -6,7 +6,6 @@ window.addEventListener("load", function() {
 })
 
 
-
 // User Interface Logic
 
 function hideResults() {
@@ -20,16 +19,12 @@ window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
-    const questionOne = parseInt(document.querySelector("input#answerOne").checked.value);
-    const questionTwo = parseInt(document.querySelector("input#answerTwo").checked.value);
-    const questionThree = parseInt(document.querySelector("input#answerThree").checked.value);
-     if (questionOne === "1" && questionTwo === "1" && questionThree==="1") {
-      document.getElementById("react").removeAttribute("class");
+    const answerChosen = document.querySelector("input[name='answer']:checked").value;      
       // goes to swings, removes class=hidden attribute, which removes the css styles code saying .hidden =display: none//
+      document.getElementById("react").removeAttribute("class");
       // document.getElementById("python").removeAttribute("class");
       // document.getElementById("cSharp").removeAttribute("class");
       // document.getElementById("javaScript").removeAttribute("class");
 
     } 
-  }
 }

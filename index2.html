@@ -59,6 +59,27 @@
 </body>
 </html> -->
 
+
+<fieldset>
+    <legend>Select a maintenance drone:</legend>
+
+    <div>
+      <input type="radio" id="huey" name="drone" value="huey"
+             checked>
+      <label for="huey">Huey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="dewey" name="drone" value="dewey">
+      <label for="dewey">Dewey</label>
+    </div>
+
+    <div>
+      <input type="radio" id="louie" name="drone" value="louie">
+      <label for="louie">Louie</label>
+    </div>
+</fieldset>
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -69,69 +90,73 @@
   <body>
     <h1>Coding Quiz</h1>
     <form id="userInfo">
-      <div id="quiz">
-        <fieldset>
+      <fieldset  name="quiz" id="quizContainer">
+        <legend><h2>What Coding Language Are You?</h2></legend>
+
+        <fieldset name="quiz" id="quiestion">
           <legend>Question 1</legend>
           <label for="answerOne">
-            <input type="radio" id="answerOne" name="questionOne" required />
+            <input type="radio" id="answerOne" name="answer" value='1' required />
             Answer1
           </label>
           <br />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="questionOne" />
+            <input type="radio" id="answerTwo" name="answer" value='2'  />
             answer 2
           </label>
           <br />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="questionOne" />
+            <input type="radio" id="answerThree" name="answer" value='3'/>
             answer 3
           </label>
           <br />
         </fieldset>
-        <fieldset>
+        <fieldset name="quiz" id="quiestion">
           <legend>Question 2</legend>
           <label for="answerOne">
-            <input type="radio" id="answerOne" name="questionTwo" required />
+            <input type="radio" id="answerOne" name="answer" value='1' required />
             Answer1
           </label>
           <br />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="questionTwo" />
+            <input type="radio" id="answerTwo" name="answer" value='2'>
             answer 2
           </label>
           <br />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="questionTwo" />
+            <input type="radio" id="answerThree" name="answer" value='3' />
             answer 3
           </label>
           <br />
         </fieldset>
-        <fieldset>
+        <fieldset name="quiz" id="quiestion">
           <legend>Question 3</legend>
           <label for="answerOne">
-            <input type="radio" id="answerOne" name="questionThree" required />
+            <input type="radio" id="answerOne" name="answer" value='1'  required />
             Answer1
           </label>
           <br />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="questionThree" />
+            <input type="radio" id="answerTwo" name="answer" value='2' />
             answer 2
           </label>
           <br />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="questionThree" />
+            <input type="radio" id="answerThree" name="answer" value='3'/>
             answer 3
           </label>
           <br />
         </fieldset>
         <br />
-        <button type="submit">Show my Code!!</button>
-      </div>
+        <button name="button" id="enterButton" type="submit">Enter</button>
+      </fieldset>
     </form>
+          <!-- hidden answers -->
+
     <div class="hidden">
       <div id="react" class="hidden">
         <h1>REACT</h1>
-        <p>Try React! .</p>
+        <p>Try React! .</p> 
       </div>
       <div id="python" class="hidden">
         <h1>PYTHON</h1>
@@ -145,7 +170,7 @@
         <h1>CSS HTML & JavaScript</h1>
         <p>you'd like these for these reasons! .</p>
       </div>
-      <button type="button" class="hidden" id="reset">Reset</button>
+      <button name="button" type="submit" class="hidden" id="reset">Reset</button>
     </div>
   </body>
 </html>
