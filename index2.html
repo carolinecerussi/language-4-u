@@ -59,25 +59,23 @@
 </body>
 </html> -->
 
-
 <fieldset>
-    <legend>Select a maintenance drone:</legend>
+  <legend>Select a maintenance drone:</legend>
 
-    <div>
-      <input type="radio" id="huey" name="drone" value="huey"
-             checked>
-      <label for="huey">Huey</label>
-    </div>
+  <div>
+    <input type="radio" id="huey" name="drone" value="huey" checked />
+    <label for="huey">Huey</label>
+  </div>
 
-    <div>
-      <input type="radio" id="dewey" name="drone" value="dewey">
-      <label for="dewey">Dewey</label>
-    </div>
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey" />
+    <label for="dewey">Dewey</label>
+  </div>
 
-    <div>
-      <input type="radio" id="louie" name="drone" value="louie">
-      <label for="louie">Louie</label>
-    </div>
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie" />
+    <label for="louie">Louie</label>
+  </div>
 </fieldset>
 
 <!DOCTYPE html>
@@ -90,73 +88,82 @@
   <body>
     <h1>Coding Quiz</h1>
     <form id="userInfo">
-      <fieldset  name="quiz" id="quizContainer">
+      <fieldset name="quiz" id="quizContainer">
         <legend><h2>What Coding Language Are You?</h2></legend>
 
-        <fieldset name="quiz" id="quiestion">
+        <fieldset name="question" id="question">
           <legend>Question 1</legend>
+          <input type="radio" id="answerOne" name="answerOne" value="1" checked />
           <label for="answerOne">
-            <input type="radio" id="answerOne" name="answer" value='1' required />
             Answer1
           </label>
           <br />
+          <input type="radio" id="answerTwo" name="answerOne" value="2" />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="answer" value='2'  />
             answer 2
           </label>
           <br />
+          <input type="radio" id="answerThree" name="answerOne" value="3" />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="answer" value='3'/>
             answer 3
           </label>
           <br />
         </fieldset>
-        <fieldset name="quiz" id="quiestion">
+        <fieldset name="question" id="question">
           <legend>Question 2</legend>
-          <label for="answerOne">
-            <input type="radio" id="answerOne" name="answer" value='1' required />
-            Answer1
-          </label>
+          <input
+            type="radio"
+            id="answerOne"
+            name="answerTwo"
+            value="1"
+checked          />
+          <label for="answerOne">Answer1</label>
           <br />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="answer" value='2'>
+            <input type="radio" id="answerTwo" name="answerTwo" value="2" />
             answer 2
           </label>
           <br />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="answer" value='3' />
+            <input type="radio" id="answerThree" name="answerTwo" value="3" />
             answer 3
           </label>
           <br />
         </fieldset>
-        <fieldset name="quiz" id="quiestion">
+        <fieldset name="question" id="question">
           <legend>Question 3</legend>
+          <input type="radio" id="answerOne" name="answerThree" value="1" checked />
           <label for="answerOne">
-            <input type="radio" id="answerOne" name="answer" value='1'  required />
-            Answer1
+            answer1
           </label>
           <br />
+          <input type="radio" id="answerTwo" name="answerThree" value="2" />
           <label for="answerTwo">
-            <input type="radio" id="answerTwo" name="answer" value='2' />
             answer 2
           </label>
           <br />
           <label for="answerThree">
-            <input type="radio" id="answerThree" name="answer" value='3'/>
+            <input type="radio" id="answerThree" name="answerThree" value="3" />
             answer 3
           </label>
           <br />
         </fieldset>
         <br />
-        <button name="button" id="enterButton" type="submit">Enter</button>
-      </fieldset>
+  <div>
+      <button type="submit" name="button" id="enter">Submit</button>
+    </div>      </fieldset>
     </form>
-          <!-- hidden answers -->
+    <pre id="log"></pre>
+
+      <div>
+      <button type="submit" name="button" id="reset">Reset</button>
+    </div>       
+    <!-- hidden answers -->
 
     <div class="hidden">
       <div id="react" class="hidden">
         <h1>REACT</h1>
-        <p>Try React! .</p> 
+        <p>Try React! .</p>
       </div>
       <div id="python" class="hidden">
         <h1>PYTHON</h1>
@@ -170,7 +177,8 @@
         <h1>CSS HTML & JavaScript</h1>
         <p>you'd like these for these reasons! .</p>
       </div>
-      <button name="button" type="submit" class="hidden" id="reset">Reset</button>
+ 
+      </button>
     </div>
   </body>
 </html>

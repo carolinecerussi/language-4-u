@@ -33,8 +33,12 @@ body {
     font-family: 1rem 'Fira Sans', sans-serif;;
 }
 
+fieldset#question {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 button {
+    
     color: rgb(0, 102, 255);
     background-color: transparent;
     border-color: transparent;
