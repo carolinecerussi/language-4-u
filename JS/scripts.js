@@ -13,15 +13,10 @@ function hideResults() {
 }
 
 
-
-
-
-
 window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
-    
       let answerChosen1 = document.querySelector("input[name='answerOne']:checked").value;
       let answerChosen2 = document.querySelector("input[name='answerTwo']:checked").value;
       let answerChosen3 = document.querySelector("input[name='answerThree']:checked").value;
@@ -57,18 +52,28 @@ else {
 
 
 function showResults() {
-  if (hiddenOutcome = "react") { 
+  if (hiddenOutcome === "react") { 
     document.querySelector("div#react").setAttribute("class", "reactShown");
 } else if 
-  (hiddenOutcome = "python") {
+  (hiddenOutcome === "python") {
     document.querySelector("div#python").setAttribute("class", "pythonShown");
 } else {
       document.querySelector("div#cSharp").setAttribute("class", "cSharpShown");
 }
-showResults;
 };
 
 
+function showResults() {
+  if (hiddenOutcome === "react") { 
+    document.getElementById("react").setAttribute("class", "reactShown");
+} else if 
+  (hiddenOutcome === "python") {
+    document.getElementById("python").setAttribute("class", "pythonShown");
+} else {
+      document.getElementById("cSharp").setAttribute("class", "cSharpShown");
 }
+};
+showResults();
 
+}
 }
