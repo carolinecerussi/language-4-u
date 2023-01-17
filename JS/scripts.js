@@ -19,23 +19,11 @@ function showResults() {
   document.getElementById("javaScript").setAttribute("class", "shown");
 }
 
-
-window.onload = function() {
-  document.querySelector("form").onsubmit = function(event) {
-    event.preventDefault();
-    hideResults();
-
-    showResults();
+function getTotal() {
       let answerChosen1 = document.querySelector("input[name='answerOne']:checked").value;
       let answerChosen2 = document.querySelector("input[name='answerTwo']:checked").value;
       let answerChosen3 = document.querySelector("input[name='answerThree']:checked").value;
-
-const answersTotal = (parseInt(answerChosen1) + parseInt(answerChosen2) + parseInt(answerChosen3));
-console.log(answersTotal);
-
-      // goes to swings, removes class=hidden attribute, which removes the css styles code saying .hidden =display: none//
-    
-  
+      let answersTotal = (parseInt(answerChosen1) + parseInt(answerChosen2) + parseInt(answerChosen3));
       if (answersTotal === 3) {
       let  hiddenOutcome = window.document.querySelector("p#react").getAttribute("id");
           window.alert(hiddenOutcome);
@@ -52,7 +40,19 @@ else {
   return window.alert("error");
 }
 
+}
+
+window.onload = function() {
+  document.querySelector("form").onsubmit = function(event) {
+    event.preventDefault();
+    hideResults();
+  showResults();
+getTotal();
+      // goes to swings, removes class=hidden attribute, which removes the css styles code saying .hidden =display: none//
+    
+
 }  
+
 }
 
 
