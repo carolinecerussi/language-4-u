@@ -1,4 +1,3 @@
-// // window.addEventListener("load", function() {
 // //   let form = document.querySelector("form#userInfo");
 // //   let resetBtn = document.querySelector("button#reset");
 
@@ -14,33 +13,39 @@ function hideResults() {
   document.getElementById("javaScript").setAttribute("class", "hidden");
 }
 
+
 window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
 
-    let answerChosen = document.querySelector("input[name='answerOne']:checked").value;      
-    console.log(answerChosen);
+      let answerChosen1 = document.querySelector("input[name='answerOne']:checked").value;
+      let answerChosen2 = document.querySelector("input[name='answerTwo']:checked").value;
+      let answerChosen3 = document.querySelector("input[name='answerTwo']:checked").value;
+
+const answersTotal = (parseInt(answerChosen1) + parseInt(answerChosen2) + parseInt(answerChosen3));
+
+
       // goes to swings, removes class=hidden attribute, which removes the css styles code saying .hidden =display: none//
-     hiddenOutcome = document.body.querySelector(
+     let hiddenOutcome = document.body.querySelector(
           "div#hidden");
-        console.log();
-       if (answerChosen === '1') {
+      if (answersTotal === 3) {
       let  hiddenOutcome = window.document.querySelector("div#react");
               console.log(hiddenOutcome.getAttribute('id'));
          }
-      else  if  (answerChosen === '2') {
+      else  if  (answersTotal > 3 && answersTotal < 9) {
           let  hiddenOutcome = window.document.querySelector("div#python")
               console.log(hiddenOutcome.getAttribute('id'));
       }
-    else  if (answerChosen === '3')  {
+    else  if (answersTotal === 9)  {
             let    hiddenOutcome = window.document.querySelector("div#cSharp");
               console.log(hiddenOutcome.getAttribute('id'));
     }
 else {
   return window.alert("error");
-
-}}
+}
+window.alert(hiddenOutcome)
 }  
+}
 
 
