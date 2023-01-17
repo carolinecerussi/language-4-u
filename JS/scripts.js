@@ -18,31 +18,29 @@ window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
+
     let answerChosen = document.querySelector("input[name='answerOne']:checked").value;      
     console.log(answerChosen);
       // goes to swings, removes class=hidden attribute, which removes the css styles code saying .hidden =display: none//
-      let hiddenOutcome = window.document.querySelector(
+     hiddenOutcome = document.body.querySelector(
           "div#hidden");
-       if (answerChosen.value = 1) {
-         hiddenOutcome = window.document.querySelector(
-          "div#react");
-        console.log(hiddenOutcome);
-       } 
-      else if  (answerChosen.value = 2) {
-               hiddenOutcome = window.document.querySelector(
-          "div#python");
-              console.log(hiddenOutcome);
+        console.log();
+       if (answerChosen === '1') {
+      let  hiddenOutcome = window.document.querySelector("div#react");
+              console.log(hiddenOutcome.getAttribute('id'));
+         }
+      else  if  (answerChosen === '2') {
+          let  hiddenOutcome = window.document.querySelector("div#python")
+              console.log(hiddenOutcome.getAttribute('id'));
       }
-          else if  (answerChosen .value= 3) {
-               hiddenOutcome = window.document.querySelector(
-          "div#cSharp");
-              console.log(hiddenOutcome);
-      }
-      else {
-      return  window.alert("oops");}
-      }
-      // document.getElementById("python").removeAttribute("class");
-      // document.getElementById("cSharp").removeAttribute("class");
-      // document.getElementById("javaScriptgit").removeAttribute("class");
+    else  if (answerChosen === '3')  {
+            let    hiddenOutcome = window.document.querySelector("div#cSharp");
+              console.log(hiddenOutcome.getAttribute('id'));
+    }
+else {
+  return window.alert("error");
 
-}
+}}
+}  
+
+
