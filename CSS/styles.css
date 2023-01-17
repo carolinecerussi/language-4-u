@@ -1,52 +1,56 @@
-
 p,
 label {
-    font: 1rem 'Fira Sans', sans-serif;
+  font: 1rem "Fira Sans", sans-serif;
 }
 
 input {
-    margin: 0.4rem;
+  margin: 0.4rem;
 }
 
-
+.reactShown {
+font-size: 80pt;    
+}
+.cSharpShown {
+    font-size: 80pt;
+}
+.pythonShown {
+    font-size: 80pt;
+}
 .hidden {
   display: none;
 }
-.container#containerHeading {
-    color: greenyellow;
+
+.shown {
+    color: green;
+    font-size: 50pt;
+    background-color: orange;
 }
-
-
 label {
-    color:rgb(83, 5, 48);
-    text-transform: lowercase;
-    
-    
+  color: rgb(254, 89, 7);
+  text-transform: lowercase;
 }
-
 
 body {
-
-    background-color: rgba(255, 255, 255, 0.701);
-    font-size: 20pt;
-    width: 90%;
-    font-family: 1rem 'Fira Sans', sans-serif;;
+  background-color: rgba(255, 255, 255, 0.701);
+  font-size: 20pt;
+  width: 80%;
+  font-family: 1rem "Fira Sans", sans-serif;
 }
 
 fieldset#question {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 button {
-    
-    color: rgb(0, 102, 255);
-    background-color: transparent;
-    border-color: transparent;
-    background-color: rgba(255, 0, 0, 0.467);
-    border-radius: 50px;
-    font-family:1rem 'Fira Sans', sans-serif;;
+  color: rgb(0, 102, 255);
+  background-color: transparent;
+  border-color: transparent;
+  background-color: rgba(255, 0, 0, 0.467);
+  border-radius: 50px;
+  font-family: 1rem "Fira Sans", sans-serif;
 }
 
 html {
-    background-image: url(/IMG/pngkey.com-matrix-code-png-1056183.png);
+  background-color: red;
+  text-align: center;
 }
