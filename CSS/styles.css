@@ -7,15 +7,15 @@ input {
   margin: 0.4rem;
 }
 
-.reactShown {
+/* .reactShown {
 font-size: 80pt;    
 }
 .cSharpShown {
     font-size: 80pt;
 }
 .pythonShown {
-    font-size: 80pt;
-}
+    font-size: 80pt; */
+
 .hidden {
   display: none;
 }
